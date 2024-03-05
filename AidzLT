@@ -405,12 +405,12 @@ miscTab:AddButton({
   	end    
 })
 
-creditTab:AddLabel("Scripts Made by fallen_del")
+creditTab:AddLabel("Scripts Made by AidzLT")
 creditTab:AddLabel("UI Library by Shlex")
 creditTab:AddButton({
 	Name = "Discord Server",
 	Callback = function()
-        setclipboard("https://discord.gg/auzBFqDrwZ")
+        setclipboard("Tên Tôi Là Trường Hay Còn Gọi Là AidzLT")
   	end    
 })
 
