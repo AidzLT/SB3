@@ -6,17 +6,8 @@ xNero:Credit{Name = "LuongTruong",Description = "Discord AidzLT",}
 
 local Main = xNero:Tab({Name = "Aidz Script",Icon = "http://www.roblox.com/asset/?id=6414160239"})
 
-
-Main:Button({Name = "find server",Description = "find server + copy place id floor 2",Callback = function()
-	loadstring(game:HttpGet("https://rawscripts.net/raw/Server-Browser_80", true))()
-end})
-
 Main:Button({Name = "antilag",Description = nil,Callback = function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/AidzLT/antilag/main/univers"))()
-end})
-
-Main:Button({Name = "antilag v2",Description = nil,Callback = function()
-	loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FPS-BOOST-2022-3864"))()
 end})
 
 Main:Button({Name = "Kill Aura",Description = nil,Callback = function()
